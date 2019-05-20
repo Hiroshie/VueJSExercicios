@@ -7,14 +7,21 @@
     <script src="/js/vue.min.js"></script>
     <style>
         .vermelho {
-            background-color: red;
+            background-color: gray;
         }
     </style>
 </head>
 <body class="exercicio">
-
+    <div id="app">
+        <button  @click="aplicarCor = !aplicarCor" :class="{vermelho : aplicarCor}"><b>Teste</b></button>
+    </div>
     <script>
-        // ...
+        new Vue({
+            el: "#app", 
+            data: {
+                aplicarCor: false
+            }
+        })
     </script>
 </body>
 </html>
