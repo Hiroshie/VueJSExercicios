@@ -13,7 +13,7 @@
 	"license": "ISC",
 	"dependencies": {
 		"buefy": "^0.7.6",
-		"http-server": "^0.11.1",
+		"http-server": "^0.11.2",
 		"vue": "^2.6.10"
 	}
 }
